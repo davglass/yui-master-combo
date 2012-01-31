@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body class="yui3-skin-sam">
+
+<span class="horiz_slider"></span>
+
+<!--script src="http://localhost:5000/"></script-->
+<script src="http://yui-master-combo.nodejitsu.com/"></script>
+<script>
+YUI().use('slider', function(Y) {
+    console.log(Y);
+    var xSlider = new Y.Slider();
+    xSlider.render( ".horiz_slider" );
+});
+</script>
+</body>
+</html>
