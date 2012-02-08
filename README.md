@@ -9,6 +9,8 @@ The requests are cached in memory for 5 minutes to make sure we don't explode Gi
 
 I've hosted this over at [http://jitsu.com](Nodejitsu) in case you wanted to give it a shot.
 
+Here's an [http://dl.dropbox.com/u/5669457/yui-master-combo.html](example).
+
 How it works
 ------------
 

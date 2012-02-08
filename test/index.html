@@ -3,17 +3,13 @@
 <head>
     <title>Test</title>
 </head>
-<body class="yui3-skin-sam">
-
-<span class="horiz_slider"></span>
-
-<!--script src="http://localhost:5000/"></script-->
+<body>
+<h1>Testing</h1>
 <script src="http://yui-master-combo.nodejitsu.com/"></script>
 <script>
-YUI().use('slider', function(Y) {
-    console.log(Y);
-    var xSlider = new Y.Slider();
-    xSlider.render( ".horiz_slider" );
+YUI().use('node', function(Y) {
+    Y.one('body').setStyle('backgroundColor', 'green');
+    Y.one('h1').setStyle('color', 'white');
 });
 </script>
 </body>
