@@ -7,9 +7,7 @@ Well, here's an example that pulls the JS &amp; CSS from Github and combo's them
 
 The requests are cached in memory for 5 minutes to make sure we don't explode Github's rate limit.
 
-I've hosted this over at [http://jitsu.com](Nodejitsu) in case you wanted to give it a shot.
-
-Here's an [http://dl.dropbox.com/u/5669457/yui-master-combo.html](example).
+I've hosted this over at [http://nodester.com](Nodester) in case you wanted to give it a shot.
 
 How it works
 ------------
@@ -27,12 +25,12 @@ the combo server for you:
 YUI.applyConfig({
      root: "",
      filter: "min",
-     comboBase: "http://yui-master-combo.nodejitsu.com/combo?"
+     comboBase: "http://yui-master-combo.nodester.com/combo?"
 });
 YUI.version = "yui-master-combo";
 ```
 
-This tells the YUI seed to use `http://yui-master-combo.nodejitsu.com/combo?` as it's combo base
+This tells the YUI seed to use `http://yui-master-combo.nodester.com/combo?` as it's combo base
 and set's the default filter to 'min' as well as modify the version stamp of the JS files.
 
 All files that are passed through this 'proxy' will also have `@VERSION@` replaced with the same stamp.
@@ -41,9 +39,9 @@ Usage
 -----
 
 ```html
-<script src="http://yui-master-combo.nodejitsu.com/"></script>
-<script src="http://yui-master-combo.nodejitsu.com/?filter=debug"></script>
-<script src="http://yui-master-combo.nodejitsu.com/?filter=raw"></script>
+<script src="http://yui-master-combo.nodester.com/"></script>
+<script src="http://yui-master-combo.nodester.com/?filter=debug"></script>
+<script src="http://yui-master-combo.nodester.com/?filter=raw"></script>
 ```
 
 ```javascript
