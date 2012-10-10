@@ -1,16 +1,14 @@
 {
-  "name": "yui-master-combo",
-  "description": "Live combo server backed by Github Master",
-  "version": "0.0.2-1",
-  "dependencies": {
-    "express": "2.5.11"
-  },
-  "engines": {
-    "node": "v0.6.x"
-  },
-  "main": "./server.js",
-  "subdomain": "yui-master-combo",
-  "scripts": {
-    "start": "server.js"
-  }
+    "name": "yui-master-combo",
+    "description": "Live combo server backed by Github Master",
+    "version": "0.0.2-1",
+    "dependencies": {
+        "express": "2.5.11"
+    },
+    "node": "0.6.17",
+    "main": "./server.js",
+    "subdomain": "yui-master-combo",
+    "scripts": {
+        "start": "server.js"
+    }
 }
